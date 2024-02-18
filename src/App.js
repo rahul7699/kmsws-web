@@ -16,6 +16,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
+        
       </Routes>
     </BrowserRouter>
   );
