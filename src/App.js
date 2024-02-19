@@ -10,11 +10,12 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route exact path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
+          <Route exact path="/blogs" element={<Blogs />} />
+          <Route exact path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
+          
         </Route>
         
       </Routes>

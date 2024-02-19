@@ -1,9 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
-
+import Navbar from "./Navbar";
 const Layout = () => {
   return (
     <>
-      <nav>
+    <Navbar />
+      {/* <nav>
         <ul>
           <li>
             <Link to="/">Home2</Link>
@@ -15,7 +16,7 @@ const Layout = () => {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
       <Outlet />
     </>
