@@ -3,7 +3,7 @@ const Carousel = () => {
 
   return ( 
   <>
-    <h4>i am a Carousel</h4>
+   
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>

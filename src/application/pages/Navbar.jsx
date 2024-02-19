@@ -1,4 +1,5 @@
 //import img1 from "../public/logo192.png";
+import { NavLink } from "react-bootstrap";
 const Navbar = () => {
 
     return ( 
@@ -18,6 +19,8 @@ const Navbar = () => {
       <li class="nav-item">
         <a class="nav-link" href="/contact">Contact</a>
       </li>
+
+     
       <li class="nav-item">
         <a class="nav-link" href="/blogs">Blogs</a>
       </li>
