@@ -28,9 +28,20 @@ const Navbar = () => {
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li> */}
     </ul>
+    <button type="button" class="btn btn-outline-success">register yoursef</button> &emsp;
+    <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+  &emsp;
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control sm-2" type="search" placeholder="Search" aria-label="Search" />
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button> 
     </form>
   </div>
 </nav>

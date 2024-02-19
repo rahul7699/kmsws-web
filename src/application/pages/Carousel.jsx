@@ -12,21 +12,21 @@ const Carousel = () => {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img width="300px" height="400px" src="/img2.jpg" class="d-block w-100" alt="..."/>
+      <img width="500px" height="800px" src="/img2.jpg" class="d-block w-100" alt="..."/>
       <div style={{color:"white"}}class="carousel-caption d-md-block">
         <h5>1 slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img width="300px" height="400px" src="/img3.jpg" class="d-block w-100" alt="..."/>
+      <img width="500px" height="800px" src="/img3.jpg" class="d-block w-100" alt="..."/>
       <div style={{color:"green"}}class="carousel-caption d-md-block">
         <h5>2 slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img width="300px" height="400px" src="/myimg.jpg" class="d-block w-100" alt="..."/>
+      <img width="500px" height="800px" src="/myimg.jpg" class="d-block w-100" alt="..."/>
       <div style={{color:"blue"}}class="carousel-caption d-md-block">
         <h5>3 slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
